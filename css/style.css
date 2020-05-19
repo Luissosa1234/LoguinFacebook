@@ -1,64 +1,89 @@
-html , body{
-margin: 0px;
-padding: 0px;
-font-family: Arial, Helvetica, sans-serif
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* PARTE SUPERIOR DE FACEBOOK */
-header{
-    display: flex;
-    width: 100%;
-    height: 85px;
-    background-color: rgb(59, 89, 152);
+header {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  background-color: rgb(59, 89, 152);
 }
 
-.caja_top{
-    width: 1000px;
-    margin:auto ;
-    min-width: 800px;
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 14px;
-    
+.caja_top {
+  width: 1000px;
+  margin: auto;
+  min-width: 800px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
 }
 
-header h1{
-    margin-top: 33px;
-    color: white;
-    font-size: 43px;
+header h1 {
+  margin-top: 25px;
+  color: white;
+  font-size: 43px;
 }
 
-.formulario_top{
-    margin-left: 370px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: -4px;
-    width: 600px;
-    color: white;
-    font-size: 12px;
+.formulario_top {
+  margin-left: 370px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: -4px;
+  width: 600px;
+  color: white;
+  font-size: 12px;
 }
 
-.pass p{
-    color: rgb(185, 185, 185);
-    font-size: 10px;
+.pass p {
+  color: rgb(185, 185, 185);
+  font-size: 10px;
 }
 
-
-.btn_enviar{
-    border: none;
-    background-color: rgb(66, 103, 178);
-    width: 100px;
-    text-align: center;
-    padding: 5px;
-    font-weight: bold;
-    color: white;
-    border: solid 1px black;
-    margin-top: 23px;
-    font-size: 12px;
-    
+.btn_enviar {
+  border: none;
+  background-color: rgb(66, 103, 178);
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  border: solid 1px black;
+  margin-top: 23px;
+  font-size: 12px;
 }
 
 /* CONTENEDOR DE FACEBOOK */
+
+.contenido {
+  width: 100%;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  min-width: 800px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 47%,
+    rgba(237, 237, 237, 1) 100%
+  );
+}
+
+.mapa {
+    width: 500px;
+    text-align: justify;
+    margin-left: 20;
+    
+}
+
+.mapa img{
+    width: 500px;
+    text-align: justify;
+    
+    
+}
 
