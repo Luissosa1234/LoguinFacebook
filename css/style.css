@@ -39,6 +39,8 @@ header h1 {
   font-size: 12px;
 }
 
+
+
 .pass p {
   color: rgb(185, 185, 185);
   font-size: 10px;
@@ -61,7 +63,7 @@ header h1 {
 
 .contenido {
   width: 100%;
-  height: 900px;
+  height: 650px;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   min-width: 800px;
@@ -74,16 +76,69 @@ header h1 {
 }
 
 .mapa {
-    width: 500px;
-    text-align: justify;
-    margin-left: 20;
-    
+  width: 500px;
+  text-align: justify;
+  margin-left: 20;
 }
 
-.mapa img{
-    width: 500px;
-    text-align: justify;
-    
-    
+.mapa img {
+  width: 500px;
+  text-align: justify;
 }
 
+.formulario2 h1,
+h3 {
+  font-weight: bolder;
+}
+
+.formulario2 {
+  width: 500px;
+  text-align: justify;
+  margin-left: 60px;
+  display: block;
+}
+
+.nombre {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.input_largo {
+  width: 365px;
+  height: 30px;
+  border: solid 0.5px gray;
+  border-radius: 5px;
+}
+
+.color_gris {
+  color: grey;
+}
+
+select {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn_enviar2 {
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+
+  border-radius: 5px;
+  color: white;
+  border: solid 0.2px black;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(122, 179, 86, 1) 0%,
+    rgba(59, 136, 12, 1) 99%,
+    rgba(59, 136, 12, 1) 100%
+  );
+
+  
+}

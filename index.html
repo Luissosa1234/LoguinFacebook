@@ -59,9 +59,83 @@
               compartir </br> con las personas que forman parte de tu vida.</h3>
               <img src="imagen/mapa.png" alt="img">
         </div>
+
+        <!-- FORMULARIO -->
+        <form action="validar2.php" method="post" onsubmit="return ValidaFormulario2();">
         <div class="formulario2">
 
+             <h1>Abre una cuenta</h1>
+
+             <h3>Es rápido y fácil.</h3>
+
+             <input class="nombre" type="text" name="txtnombre2" id="txtnombre2" placeholder="   NOMBRE">
+             <input class="nombre" type="text" name="txtapeido2" id="txtapeido2" placeholder="   APELLIDO">
+            </br>
+            </br>
+             <input type="email" name="txtemail2" id="txtemail2" class="input_largo" 
+             placeholder="   NUMERO DE CELULAR O CORREO ELECTRONICO">
+            </br>
+            </br>
+             <input type="password" name="txtpass2" id="txtpass2" class="input_largo" 
+             placeholder="   CONTRASEÑA NUEVA">
+            </br>
+        </br>
+        <h3 class="color_gris">Fecha de nacimiento</h3>
+        <select txtnombre="dia" id="combo_dia2">
+            <option value="00">--</option>
+            <option value="01">01</option>  <option value="02">02</option> <option value="03">03</option>
+            <option value="04">04</option>  <option value="05">05</option> <option value="06">06</option>
+            <option value="07">07</option>  <option value="08">08</option> <option value="09">09</option>
+            <option value="10">10</option>  <option value="11">11</option> <option value="12">12</option>
+            <option value="13">13</option>  <option value="14">14</option> <option value="15">15</option>
+            <option value="16">16</option>  <option value="17">17</option> <option value="18">18</option>
+            <option value="19">19</option>  <option value="20">20</option> <option value="21">21</option>
+            <option value="22">22</option>  <option value="23">23</option> <option value="24">24</option>
+            <option value="25">25</option>  <option value="26">26</option> <option value="27">27</option>
+            <option value="28">28</option>  <option value="29">29</option> <option value="30">30</option>
+            <option value="31">31</option>  
+        </select>
+        
+        <select txtnombre="semana" id="combo_semana2">
+            <option value="00">-------------</option>
+            <option value="Enero">Enero</option> <option value="Febreo">Febreo</option> <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option> <option value="Mayo">Mayo</option> <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>  
+            <option value="Agosto">Agosto</option>  
+            <option value="Octubre">Octubre</option>  
+            <option value="Noviembre">Noviembre</option>  
+            <option value="Diciembre">Diciembre</option>  
+        </select>
+       
+        <select txtnombre="ano" id="combo_ano2">
+            <option value="00">----</option>
+            <option value="2005">2005</option> <option value="2006">2006</option> <option value="2007">2007</option>
+            <option value="2008">2008</option> <option value="2009">2009</option> <option value="2010">2010</option>
+            
+        </select>
+    
+        <h3 class="color_gris">Sexo</h3>
+
+        <table>
+            <tr>
+                <td>
+                    <input type="radio" name="marca2" id="marca1" value="Honda">Mujer
+                </td>
+                <td>
+                    <input type="radio" name="marca2" id="marca2" value="Yamaha">Hombre
+                </td>
+                <td>
+                    <input type="radio" name="marca2" id="marca3" value="Can Am">Personalizado
+                </td>
+            </tr>
+          </table>
+          <p class="color_gris">Al hacer clic en "Registrarte", aceptas nuestras <a href="#">Condiciones</a> , la <a href="#">Política de datos</a>  y la <a href="#">Política de cookies</a> . Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</p>
+          <input class="btn_enviar2" type="submit" value="Registrarte" >
+                       </input>
+                       <p><a href="#">Crea una página</a>  para un personaje público, un grupo de música o un negocio.</p>
         </div>
+    </form>
+        <!--DIV SEPARADOR -->
         <div></div>
     </div>
     <footer>
